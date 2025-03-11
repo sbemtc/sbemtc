@@ -11,7 +11,7 @@ function calculateOD(diameterCasing, diameterPipa, id) {
     return od;
 }
 
-document.querySelector("#screw")?.addEventListener('submit', event => {
+document.querySelector("form#screw")?.addEventListener('submit', (event) => {
   event.preventDefault();
   // actual logic, e.g. validate the form
   alert('Form submission cancelled.');
