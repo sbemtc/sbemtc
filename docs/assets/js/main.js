@@ -11,6 +11,11 @@ function calculateOD(diameterCasing, diameterPipa, id) {
     return od;
 }
 
+document.querySelector("#screw")?.onsubmit = (e) => {
+    alert("gacor kang")
+}
+
+
 // Contoh penggunaan
 const diameterPipa = 10; // Diameter pipa dalam satuan tertentu
 const pitch = 5; // Pitch dalam satuan tertentu
