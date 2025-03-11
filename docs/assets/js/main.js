@@ -12,6 +12,7 @@ function calculateOD(diameterCasing, diameterPipa, id) {
 }
 
 document.querySelector("#screw")?.onsubmit = (e) => {
+    e.preventDefault()
     alert("gacor kang")
 }
 
