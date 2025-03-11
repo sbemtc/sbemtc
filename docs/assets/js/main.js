@@ -11,10 +11,11 @@ function calculateOD(diameterCasing, diameterPipa, id) {
     return od;
 }
 
-document.querySelector("#screw")?.onsubmit = (e) => {
-    e.preventDefault()
-    alert("gacor kang")
-}
+document.querySelector("#screw")?.addEventListener('submit', event => {
+  event.preventDefault();
+  // actual logic, e.g. validate the form
+  alert('Form submission cancelled.');
+});
 
 
 // Contoh penggunaan
